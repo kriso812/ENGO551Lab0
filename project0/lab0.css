@@ -1,0 +1,36 @@
+input[type=text] {
+  background-color: #FF8D8D;
+}
+
+input[type=number] {
+  background-color: #FF8D8D;
+}
+
+ol {
+  font-weight: bold;
+}
+ol ul {
+  color: #FF8D8D;
+}
+
+.error, .warning, .success {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid black;
+}
+
+.success {
+  background-color: green;
+}
+
+.warning {
+  background-color: orange;
+}
+
+.error {
+  background-color: red;
+}
+
+/*# sourceMappingURL=lab0.css.map */

@@ -1,0 +1,38 @@
+$color: #FF8D8D;
+
+input[type=text] {
+	background-color: $color;
+}
+input[type=number] {
+	background-color: $color;
+}
+
+ol {
+	font-weight: bold;
+	ul {
+		color: $color
+	}
+}
+
+%message {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	padding: 20px;
+	margin: 20px;
+	border: 2px solid black
+}
+
+.success {
+	@extend %message;
+	background-color: green;
+}
+
+.warning {
+	@extend %message;
+	background-color: orange;
+}
+
+.error {
+	@extend %message;
+	background-color: red;
+}
